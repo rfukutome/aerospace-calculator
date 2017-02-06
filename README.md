@@ -1,6 +1,6 @@
-## Aeronautical and Space Calculator
-PYPI package for basic and advanced aerospace calcualtions.  
-The PYPI package can be found [Here](https://pypi.python.org/pypi/aerospace-calculator/0.1).
+## AeroSpace Calculator
+This calculator will cover basic aeronautical and astronautical calculations made by engineers and enthusiasts alike.  
+The PYPI package can be found [here](https://pypi.python.org/pypi/aerospace-calculator/0.1).
 
 ###Features
 - To be updated!
