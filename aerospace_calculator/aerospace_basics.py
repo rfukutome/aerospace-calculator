@@ -54,6 +54,20 @@ def calculate_induced_drag(induced_drag_correction_factor, coefficient_lift):
     return Cdi
 
 """
+@return : Returns the induced drag of an aircraft which is the drag associated with the
+          production of lift
+@rtype : float
+@param :
+    induced_drag_correction_factor (k) - induced drag correction factor
+    coefficient_lift - coefficient of lift of aircraft.
+
+Mathematical Function: Cdi = kCl^2
+"""
+def calculate_induced_drag_correction_factor(aspect_ratio):
+    k = 1/(constants.PI * constants.e * aspect_ratio)
+    return k
+
+"""
 @return : Returns the wing aspect ratio
 @rtype : float
 @param :
@@ -109,10 +123,6 @@ Mathematical Function: Re = rho * V * L / mu
 def calculate_reynolds_number(air_density, true_airspeed, length, air_viscosity):
     Re = air_density * true_airspeed * length / air_viscosity
     return Re
-
-def calculate_induced_drag_correction_factor(aspect_ratio):
-    k = 1/(constants.PI * constants.e * aspect_ratio)
-    return k
 
 def get_isa_air_pressure():
     # TODO
