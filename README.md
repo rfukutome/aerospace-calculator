@@ -7,8 +7,8 @@ The PYPI package can be found [here](https://pypi.python.org/pypi/aerospace-calc
 
 ## Install
 To install the package there are a couple ways:
-* using `pip install aerospace_calculator`
-* clone this project and run pip install in the repository directory
+1. using `pip install aerospace_calculator`
+2. clone this project and run pip install in the repository directory
   ```shell
   $ git clone https://github.com/rfukutome/aerospace-calculator
   $ cd aerospace-calculator
